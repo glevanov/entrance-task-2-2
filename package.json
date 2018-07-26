@@ -19,7 +19,11 @@
   "devDependencies": {
     "browser-sync": "2.24.6",
     "gulp": "3.9.1",
+    "gulp-imagemin": "4.1.0",
+    "gulp-rename": "1.4.0",
     "gulp-sass": "4.0.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "npm": "^6.2.0"
+  }
 }

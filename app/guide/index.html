@@ -608,7 +608,7 @@ var I18N = {},
                     var asset = JSON.parse( JSON.stringify( sliceLayer.exportable ) ).pop();
                     sliceListHTML.push(
                         '<li id="slice-' + sliceLayer.objectID + '" class="slice-layer" data-objectId="' + sliceLayer.objectID + '">',
-                            '<picture><img src="' +  'assets/' + asset.path + '?' + timestamp + '" alt=""></picture>',
+                            '' +  '' + asset.path + '<picture><img src="assets?" alt=""></picture>' + timestamp + '',
                             '<div>',
                                 '<h3>' + sliceLayer.name + '</h3>',
                                 '<small>' + self.unitSize(sliceLayer.rect.width) + ' × ' + self.unitSize(sliceLayer.rect.height) + '</small>',
