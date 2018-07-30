@@ -1,8 +1,8 @@
 .navigation {
-  max-width: 335px;
-  margin: 0 auto;
+    width: auto;
+    margin: 0 5.3%;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

@@ -14,34 +14,34 @@
             <li>Устройства</li>
             <li>Сценарии</li>
         </ul>
-        <img src="img/icon_list_m@1x.svg" width="16" height="16">
+        <img src="img/icon_list_m@1x.svg" width="16" height="14">
     </nav>
 </header>
 <main>
-    <section>
-        <h1>Главное</h1>
+    <section class="main">
+        <h1 class="visually-hidden">Главное</h1>
         <div>
-            <h2>Привет, Геннадий!</h2>
-            <p>Двери и окна закрыты, сигнализация включена.</p>
-            <ul>
+            <h2 class="main__welcome">Привет, Геннадий!</h2>
+            <p class="main__status">Двери и окна закрыты, сигнализация включена.</p>
+            <ul class="main__temperature-wrap">
                 <li>
-                    <span>Дома</span>
-                    <span>+23</span>
+                    <span class="main__place">Дома</span>
+                    <span class="main__temperature">+23</span>
                 </li>
                 <li>
-                    <span>За окном</span>
-                    <span>+19</span>
-                    <img src="#" alt="Небольшой дождь">
+                    <span class="main__place">За окном</span>
+                    <span class="main__temperature">+19</span>
+                    <img src="img/cloud-drizzle.svg" width="20" height="20" alt="Небольшой дождь">
                 </li>
             </ul>
-            <ul>
-                <li>
-                    <h3>Philips Cooler</h3>
-                    <p>Начнет охлаждать в 16:30</p>
+            <ul class="main__cards-wrap">
+                <li class="card">
+                    <h3 class="card__heading">Philips Cooler</h3>
+                    <p class="card__text">Начнет охлаждать в 16:30</p>
                 </li>
-                <li>
-                    <h3>Xiaomi Yeelight LED Smart Bulb</h3>
-                    <p>Включится в 17:00</p>
+                <li class="card">
+                    <h3 class="card__heading">Xiaomi Yeelight LED Smart Bulb</h3>
+                    <p class="card__text">Включится в 17:00</p>
                 </li>
                 <li>
                     <!-- Пустая карточка -->
@@ -50,21 +50,26 @@
         </div>
     </section>
     <section>
-        <h1>Избранные сценарии</h1>
-        <ul>
-            <li>Выключить весь свет в доме и во дворе</li>
-            <li>Я ухожу</li>
-            <li>Включить свет \u2028в коридоре</li>
-            <li>
-                <span>Набрать горячую ванну</span>
-                <span>Начнётся в 18:00</span>
+        <h1 class="section-heading">Избранные сценарии</h1>
+        <ul class="favorites__cards-wrap">
+            <li class="card">
+                <p class="card__heading">Выключить весь свет в доме и во дворе</p></li>
+            <li class="card">
+                <p class="card__heading">Я ухожу</p></li>
+            <li class="card">
+                <p class="card__heading">Включить свет \u2028в коридоре</p></li>
+            <li class="card">
+                <p class="card__heading">Набрать горячую ванну</p>
+                <p class="card__text">Начнётся в 18:00</p>
             </li>
-            <li>Сделать пол тёплым во всей квартире</li>
+            <li class="card">
+                <p class="card__heading">Сделать пол тёплым во всей квартире</p>
+            </li>
         </ul>
     </section>
     <section>
         <div>
-            <h1>Избранные устройства</h1>
+            <h1 class="section-heading">Избранные устройства</h1>
             <ul>
                 <li>Все</li>
                 <li>Кухня</li>

@@ -1,0 +1,44 @@
+.main {
+    width: auto;
+    margin: 0 5.3%;
+
+    background-color: #ece7e3;
+}
+
+.main__welcome {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold;
+
+    color: #333333;
+}
+
+.main__status {
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #333333;
+}
+
+.main__place {
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #858585;
+}
+
+.main__temperature {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+
+    color: #333333;
+}
+
+.main__temperature-wrap {
+    list-style: none;
+}
+
+.main__cards-wrap {
+    list-style: none;
+}
