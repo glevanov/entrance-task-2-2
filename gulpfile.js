@@ -1,6 +1,5 @@
 const gulp = require('gulp');
 const rename = require('gulp-rename');
-const sass = require('gulp-sass');
 const imagemin = require('gulp-imagemin');
 const concat = require('gulp-concat');
 const autoprefixer = require('gulp-autoprefixer');
@@ -14,8 +13,7 @@ gulp.task('images', function(){
 });
 
 gulp.task('styles', function() {
-  return gulp.src('app/scss/**/*.+(scss)')
-    .pipe(sass())
+  return gulp.src('app/blocks/**/*.+(css)')
     .pipe(autoprefixer())
     .pipe(concat('main.css'))
     .pipe(cssnano())

@@ -1,1 +1,1 @@
-.page{background-color:#fff}
+.menu{list-style:none;display:flex;margin:0;padding:0}.navigation{max-width:335px;margin:0 auto;display:flex;justify-content:space-between;align-items:center}.page{font-family:Arial,sans-serif;background-color:#fff}.visually-hidden{position:absolute;width:1px;height:1px;margin:-1px;border:0;padding:0;clip:rect(0 0 0 0);overflow:hidden}
