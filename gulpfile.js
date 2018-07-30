@@ -4,6 +4,7 @@ const sass = require('gulp-sass');
 const imagemin = require('gulp-imagemin');
 const concat = require('gulp-concat');
 const autoprefixer = require('gulp-autoprefixer');
+const cssnano = require('gulp-cssnano');
 
 gulp.task('images', function(){
   return gulp.src(['app/**/*.+(png|jpg|gif|svg)', '!app/guide/preview/*'])
@@ -17,5 +18,6 @@ gulp.task('styles', function() {
     .pipe(sass())
     .pipe(autoprefixer())
     .pipe(concat('main.css'))
+    .pipe(cssnano())
     .pipe(gulp.dest('./'))
 });
