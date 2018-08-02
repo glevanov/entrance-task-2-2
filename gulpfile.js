@@ -19,3 +19,7 @@ gulp.task('styles', function() {
     .pipe(cssnano())
     .pipe(gulp.dest('./'))
 });
+
+gulp.task('watch', function() {
+  gulp.watch('app/blocks/**/*.+(css)', ['styles'])
+});
