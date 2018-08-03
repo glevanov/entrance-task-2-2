@@ -23,18 +23,19 @@
         <div>
             <h2 class="main__welcome">Привет, Геннадий!</h2>
             <p class="main__status">Двери и окна закрыты, сигнализация включена.</p>
-            <ul class="main__temperature-wrap">
-                <li>
+            <ul class="wrap-temperature">
+                <li class="wrap-readings">
                     <span class="main__place">Дома</span>
                     <span class="main__temperature">+23</span>
                 </li>
-                <li>
+                <li class="wrap-readings">
                     <span class="main__place">За окном</span>
-                    <span class="main__temperature">+19</span>
-                    <img src="img/cloud-drizzle.svg" width="20" height="20" alt="Небольшой дождь">
+                    <div><span class="main__temperature">+19</span>
+                        <img src="img/cloud-drizzle.svg" width="20" height="20" alt="Небольшой дождь">
+                    </div>
                 </li>
             </ul>
-            <ul class="cards-wrapper">
+            <ul class="wrap-cards">
                 <li class="card">
                     <h3 class="card__heading">Philips Cooler</h3>
                     <p class="card__text">Начнет охлаждать в 16:30</p>
@@ -43,7 +44,7 @@
                     <h3 class="card__heading">Xiaomi Yeelight LED Smart Bulb</h3>
                     <p class="card__text">Включится в 17:00</p>
                 </li>
-                <li>
+                <li class="card">
                     <!-- Пустая карточка -->
                 </li>
             </ul>
@@ -51,7 +52,7 @@
     </section>
     <section>
         <h1 class="section-heading">Избранные сценарии</h1>
-        <ul class="cards-wrapper">
+        <ul class="wrap-cards">
             <li class="card">
                 <p class="card__heading">Выключить весь свет в доме и во дворе</p></li>
             <li class="card">
