@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer_menu-item {
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #858585;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footer_menu-item__link {
+    color: #858585;
+    text-decoration: none;
+}
+
+.footer_menu-item__link:hover {
+    text-decoration: underline;
+}
+
+.footer_copyright {
+    margin: 0;
+    margin-left: auto;
+
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #858585;
+}
