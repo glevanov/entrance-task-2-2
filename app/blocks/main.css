@@ -1,6 +1,9 @@
 .main {
     width: auto;
-    margin: 0 20px;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
 
     background-color: #ece7e3;
     background-image: url("img/bg@1x.png");
