@@ -3,6 +3,12 @@
     margin: 0 20px;
 
     background-color: #ece7e3;
+    background-image: url("img/bg@1x.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 20px;
 }
 
 .main__welcome {
