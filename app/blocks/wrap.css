@@ -11,15 +11,14 @@
 .wrap-temperature {
     list-style: none;
     display: flex;
+    align-items: flex-end;
 
     padding-left: 0;
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 .wrap-readings {
-    display: flex;
-    flex-direction: column;
-
     margin-right: 20px;
 }
 
@@ -31,4 +30,16 @@
 
     display: flex;
     flex-direction: column;
+}
+
+.wrap-temp-combo {
+    display: flex;
+    align-items: center;
+}
+
+.wrap-filter {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-right: 20px;
 }
